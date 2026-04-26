@@ -104,9 +104,9 @@ def mostrar_reporte(datos, hora):
     print("\n" + "="*30)
     print(f"   REPORTE GEOTEMPORAL")
     print("="*30)
-    print(list(f"País:      {datos['pais']}"))
+    print(list(f"País:{datos['pais']}"))
     print(list( f"Hora:{hora}:00") )
-    print(list(f"Periodo:   {obtener_periodo(hora)}"))
+    print(list(f"Periodo:{obtener_periodo(hora)}"))
     print(f"Offset:    +{datos['offset']}h")
     print("="*30)
 
